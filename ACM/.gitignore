@@ -1,5 +1,7 @@
 *.exe
 
+*.out
+
 # c++ gitignore
 
 *.o
