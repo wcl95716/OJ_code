@@ -1,5 +1,8 @@
 *.exe
 
+*.dSYM
+main.exe
+main
 # c++ gitignore
 
 *.o
