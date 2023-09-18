@@ -1,4 +1,7 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <cstring>
+#include <queue>
+#include <map>
 using namespace std;
 
 // 设计八数码结构
