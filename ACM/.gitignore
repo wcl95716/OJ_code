@@ -1,5 +1,7 @@
 *.exe
 
+output
+
 *.dSYM
 main.exe
 main
