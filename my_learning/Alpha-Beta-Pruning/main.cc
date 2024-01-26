@@ -74,16 +74,17 @@ int alpha_beta_pruning(int node,int alpha , int beta ,bool is_max){
         if(is_max){
             alpha = max(alpha , child_result);
             tree[node].value = alpha;
+            if (alpha >= beta) break;
         }else{
             beta = min(beta , child_result);
             tree[node].value = beta;
+            if (alpha >= beta) break;
         }    
     }
 
     cout<<"node "<<node <<' '<<tree[node].value <<' '<< is_max<<endl;
 
     return tree[node].value ;
-
 }
 
 

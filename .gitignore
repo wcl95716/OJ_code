@@ -87,3 +87,9 @@
 *.designe
 
 output
+
+
+main
+
+main.dSYM/
+
