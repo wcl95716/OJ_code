@@ -91,6 +91,8 @@ output
 
 main
 main*
+!*.cc
 
 main.dSYM/
+build
 
